@@ -1,0 +1,19 @@
+{
+  "name": "location-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen-province": "node province.js",
+    "gen-district": "node district.js",
+    "gen-subDistrict": "node sub-district.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.1.3",
+    "node-xlsx": "^0.17.2"
+  }
+}
