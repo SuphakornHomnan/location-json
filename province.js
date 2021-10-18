@@ -16,7 +16,7 @@ const provinceJson = provinceDetail
       thaiName: province[1],
       engName: province[2],
       region: province[3],
-      isBangkok: province[6],
+      isBangkok: province[6] === "ต่างจังหวัด" ? false : true,
       areaSqKiloMeter: province[7],
     };
   });
