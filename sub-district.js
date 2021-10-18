@@ -12,6 +12,9 @@ const subDistrictJson = locationDetail
       subDistrictId: data[0],
       thaiName: data[1],
       engName: data[2],
+      postCodeMain: data[5].toString(),
+      postCodeAll: data[6].toString(),
+      postCodeRemark: data[7] ? data[7] : "-",
       districtId: data[8],
       provinceId: data[13],
     };
